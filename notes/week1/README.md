@@ -26,3 +26,6 @@
 - [count_spaces.cpp](count_spaces.cpp)
 - [get_name.cpp](get_name.cpp)
 - [abs_value.cpp](abs_value.cpp)
+
+## Structs
+- [structs.cpp](structs.cpp)
