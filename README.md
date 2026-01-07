@@ -15,4 +15,4 @@ For course notes, see the [Obsidian lecture notes site](https://publish.obsidian
 
 ## Notes
 
-[Notes and code from lectures are here](private/notes).
+[Notes and code from lectures are here](notes).
