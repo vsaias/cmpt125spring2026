@@ -6,6 +6,8 @@
 using namespace std;
 
 // restricts n to the range [min, max]
+// n is passed by reference
+// min, max passed by value
 void clamp(double& n, double min, double max) {
     if (n < min) {
         n = min;

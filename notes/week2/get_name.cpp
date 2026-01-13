@@ -14,6 +14,6 @@ string get_name(const string& prompt = "What's your name? ") {
 
 int main()
 {
-    string name = get_name();
+    string name = get_name(">>> ");
     cout << "Hello, " << name << "!\n";
 }

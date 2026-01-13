@@ -4,13 +4,13 @@
 
 using namespace std;
 
-double abs_value(double n)
+double abs_value(double x)
 {
-    if (n < 0)
+    if (x < 0)
     {
-        return -n;
+        return -x;
     }
-    return n;
+    return x;
 }
 
 int main()

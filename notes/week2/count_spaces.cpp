@@ -5,8 +5,14 @@
 
 using namespace std;
 
+// pass by constant reference
 int count_spaces(const string& s) {
     int num_spaces = 0;
+    // for(int i = 0; i < s.size(); i++) {
+    //     if (s[i] == ' ') {
+    //         num_spaces++;
+    //     }
+    // }
     for (char c : s) {
         if (c == ' ') {
             num_spaces++;

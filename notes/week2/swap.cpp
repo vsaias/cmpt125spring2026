@@ -26,7 +26,7 @@ int main()
 {
     int a = 2;
     int b = 3;
-    cout << "a=" << a << ", b=" << b << '\n';
-    swap(a, b);
+    cout << "a=" << a << ", b=" << b << '\n'; // 2 3
+    bad_swap(a, b);
     cout << "a=" << a << ", b=" << b << '\n';
 }

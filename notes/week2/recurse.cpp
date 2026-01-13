@@ -7,14 +7,17 @@
 
 using namespace std;
 
-void recurse(int n) {
+// n < n + 1 is true in math, but not in C++
+
+void recurse(char n) {
   if (n >= 0) {
-    cout << "recurse(" << n << ")\n";
+    cout << "recurse(" << int(n)<< ")\n";
     recurse(n + 1);
+    // never reached
   }
 }
 
 int main() { 
-    recurse(0); 
+    recurse(1); 
     // never reached
 }
