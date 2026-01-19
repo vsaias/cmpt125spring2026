@@ -253,9 +253,17 @@ Also, tools like `leaks` might not work if you compile with
 ## Hints
 
 - You can use `getline` to read in a line of input from the console.
+- You might want to write a helper function called `split(s)` that splits a
+  string into a vector of strings, separated by whitespace. For example, `"* dup
+  2"` splits into `{"*", "dup", "2"}`.
+- A `vector<double>` is a good way to represent a stack. Vectors have
+  `push_back` and `pop_back` methods that make them easy to use as stacks. You
+  *don't* need to `#include <stack>`.
 - Use `try` and `catch` to handle errors.
 - Test as you go. Whenever you add a new feature, test it to make sure it works
   before moving on to the next feature.
+- Use `double`s to represent numbers. Numbers could be negative, have decimals,
+  be more than one digit, etc.
 
 ## Marking Scheme
 
