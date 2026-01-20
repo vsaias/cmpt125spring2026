@@ -135,7 +135,7 @@ Also, tools like `leaks` might not work if you compile with
   obvious from the code itself. There should be *no* commented-out code from
   previous versions.
 
-### **2 marks: Overall source code performance and memory usage**
+### **2 marks: Overall performance and memory usage**
 - No unnecessary work is done.
 - No unnecessary memory is used.
 
